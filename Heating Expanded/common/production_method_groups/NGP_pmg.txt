@@ -1,0 +1,108 @@
+pmg_wood_press = {
+	texture = "gfx/interface/icons/goods_icons/furnaces.dds"
+		production_methods = {
+		pm_woodbriquette
+		pm_woodcharcoal
+	}
+}
+
+pmg_peat_press = {
+	texture = "gfx/interface/icons/goods_icons/furnaces.dds"
+    production_methods = {
+		pm_peatbriquette
+
+    }
+}
+pmg_material_burning = {
+    texture = "gfx/interface/icons/goods_icons/furnaces.dds"
+    production_methods = {
+        pm_woodfired
+				pm_briquettefired
+				pm_coalfired
+    }
+}
+pmg_furnace = {
+    texture = "gfx/interface/icons/goods_icons/furnaces.dds"
+    production_methods = {
+        pm_casting_disabled
+        pm_furnace
+				pm_furnace01
+				pm_furnace02
+    }
+}
+
+pmg_radiator = {
+    texture = "gfx/interface/icons/goods_icons/radiator.dds"
+    production_methods = {
+        pm_casting01_disabled
+        pm_radiator
+				pm_radiator01
+				pm_radiator02
+    }
+}
+pmg_boiler = {
+    texture = "gfx/interface/icons/goods_icons/steam_boiler.dds"
+    production_methods = {
+        pm_casting02_disabled
+        pm_boiler
+				pm_boiler01
+				pm_boiler02
+    }
+}
+pmg_mining_equipment_building_bog_smeltery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_picks_and_shovels_building_bog_smeltery
+		pm_atmospheric_engine_pump_building_bog_smeltery
+		pm_condensing_engine_pump_building_bog_smeltery
+		pm_diesel_pump_building_bog_smeltery
+	}
+}
+
+pmg_explosives_building_bog_smeltery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_explosives
+		pm_nitroglycerin_building_bog_smeltery
+		pm_dynamite_building_bog_smeltery
+	}
+}
+
+pmg_steam_automation_building_bog_smeltery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_steam_automation
+		pm_steam_donkey_building_bog_smeltery
+	}
+}
+
+pmg_train_automation_building_bog_smeltery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_mine
+	}
+}
+
+pmg_ownership_capital_building_bog_smeltery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_merchant_guilds_building_bog_smeltery
+		pm_privately_owned_building_bog_smeltery
+		pm_publicly_traded_building_bog_smeltery
+		pm_government_run_building_bog_smeltery
+		pm_worker_cooperative_building_bog_smeltery
+	}
+}
+
+pmg_steelmaking_process = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+
+		pm_blister_steel_process
+		pm_briquettefired_smelting
+		pm_bessemer_process
+		pm_open_hearth_process
+		pm_electric_arc_process
+	}
+}

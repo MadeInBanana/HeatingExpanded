@@ -1,0 +1,69 @@
+texticon = {
+	icon = briquettes
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/briquettes.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = sawdust
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/sawdust.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = furnaces
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/furnaces.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = radiators
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/radiator.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = peat
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/peat.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = steam_boilers
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/steam_boiler.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = central_heating
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/central_heating.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

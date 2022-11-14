@@ -1,0 +1,84 @@
+﻿building_input_sawdust_add = {
+	good = no
+	percent = no
+}
+building_output_sawdust_add = {
+	good = yes
+	percent = no
+}
+building_output_central_heating_mult = {
+	good = yes
+	percent = yes
+}
+building_input_central_heating_add = {
+	good = no
+	percent = no
+}
+building_output_central_heating_add = {
+	good = yes
+	percent = no
+}
+building_input_briquettes_add = {
+	good = no
+	percent = no
+}
+building_output_briquettes_add = {
+	good = yes
+	percent = no
+}
+building_input_steam_boilers_add = {
+	good = no
+	percent = no
+}
+building_output_steam_boilers_add = {
+	good = yes
+	percent = no
+}
+
+building_input_radiators_add = {
+	good = no
+	percent = no
+}
+building_output_radiators_add = {
+	good = no
+	percent = no
+}
+
+building_output_furnaces_add = {
+	good = yes
+	percent = no
+}
+
+building_input_furnaces_add = {
+	good = no
+	percent = no
+}
+
+building_output_peat_add = {
+	good = yes
+	percent = no
+}
+
+building_input_peat_add = {
+	good = no
+	percent = no
+}
+
+building_group_bg_bog_smeltery_tax_mult = {
+	neutral = yes
+	percent = yes
+}
+building_group_bg_bog_smeltery_standard_of_living_add = {
+	good = yes
+	percent = no
+}
+
+building_group_bg_bog_smeltery_employee_mult = {
+	good = no
+	percent = yes
+}
+
+building_bog_smeltery_throughput_mult = {
+	good = yes
+	percent = yes
+}

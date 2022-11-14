@@ -1,0 +1,11 @@
+
+bg_bog_smelting = {
+	parent_group = bg_mining
+
+	default_building = building_bog_smeltery
+
+	depletable_resource = no
+
+	can_use_slaves = yes
+	infrastructure_usage_per_level = 1
+}

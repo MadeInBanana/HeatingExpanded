@@ -1,0 +1,87 @@
+﻿l_english:
+  popneed_survival_items:0 "Basic heating"
+  popneed_better_heating:0 "Better heating"
+
+  sawdust:0 "Sawdust"
+  peat:0 "Peat"
+  briquettes:0 "Briquettes"
+  central_heating:0 "Central Heating"
+  radiators:0 "Radiators"
+  furnaces:0 "Furnaces"
+  steam_boilers:0 "Steam Boilers"
+
+  bg_bog_smelting:0 "Bog gathering"
+
+  building_bog_smeltery:0 "Bog gathering hub"
+  building_briquette_press:0 "Briquette pressing factory"
+  building_central_heating:0 "Central heating department"
+
+  modifier_building_input_sawdust_add:0 "@sawdust! Sawdust input per level"
+  modifier_building_output_sawdust_add:0 "@sawdust! Sawdust output per level"
+  modifier_building_output_central_heating_mult:0 "@central_heating! Central heating mulitiplier per level"
+  modifier_building_input_central_heating_add:0 "@central_heating! Central heating input per level"
+  modifier_building_output_central_heating_add:0 "@central_heating! Central heating output per level"
+  modifier_building_input_briquettes_add:0 "@briquettes! Briquettes input per level"
+  modifier_building_output_briquettes_add:0 "@briquettes! Briquettes output per level"
+  modifier_building_input_steam_boilers_add:0 "@steam_boilers! Steam boilers input per level"
+  modifier_building_output_steam_boilers_add:0 "@steam_boilers! Steam boilers output per level"
+  modifier_building_input_radiators_add:0 "@radiators! Radiators input per level"
+  modifier_building_output_radiators_add:0 "@radiators! Radiators output per level"
+  modifier_building_input_furnaces_add:0 "@furnaces! Furnaces input per level"
+  modifier_building_output_furnaces_add:0 "@furnaces! Furnaces output per level"
+  modifier_building_input_peat_add:0 "@peat! Peat input per level"
+  modifier_building_output_peat_add:0 "@peat! Peat output per level"
+
+  pmg_wood_press:0 "Sawdust pressing techniques"
+  pmg_peat_press:0 "Peat drying techniques"
+  pmg_material_burning:0 "Converting materials in to heat"
+  pmg_furnace:0 "Furnaces"
+  pmg_radiator:0 "Radiators"
+  pmg_boiler:0 "Boilers"
+
+  pmg_mining_equipment_building_bog_smeltery:0 "Shovelling, Hauling and smelting"
+  pmg_explosives_building_bog_smeltery:0 "Using peat as fertilizer"
+  pmg_steam_automation_building_bog_smeltery:0 "Reducing carry load"
+  pmg_train_automation_building_bog_smeltery:0 "Easy transportation"
+  pmg_ownership_capital_building_bog_smeltery:0 "Who owns this?"
+
+  pm_briquettefired_smelting:0 "Briquettes as fuel"
+
+  		pm_nitroglycerin_building_bog_smeltery:0 "Rudimentary use of Peat as fertilizer"
+  		pm_dynamite_building_bog_smeltery:0 "Advanced fertilization using Peat"
+
+      pm_steam_donkey_building_bog_smeltery:0 "Reduced carry load using steam donkeys"
+
+      pm_merchant_guilds_building_bog_smeltery:0 " Merchant guilds"
+      pm_privately_owned_building_bog_smeltery:0 " Private Ownership"
+    	pm_publicly_traded_building_bog_smeltery:0 " Public Ownership"
+    	pm_government_run_building_bog_smeltery:0 "Government run"
+      pm_worker_cooperative_building_bog_smeltery:0 "Worker cooperative"
+
+    	pm_picks_and_shovels_building_bog_smeltery:0 "Shovel and bags"
+  		pm_atmospheric_engine_pump_building_bog_smeltery:0 "Advanced shovelling techniques"
+		  pm_condensing_engine_pump_building_bog_smeltery:0 "Machinery excavation"
+		  pm_diesel_pump_building_bog_smeltery:0 "Heavy machine excavation"
+
+      pm_casting02_disabled:0 "Stopped casting of Boilers"
+      pm_boiler:0 "Denis Papin based boiler"
+			pm_boiler01:0 "H-type Stirling boiler"
+      pm_boiler02:0 "Type E stoker boiler"
+
+
+      pm_casting01_disabled:0 "Stopped casting of Radiators"
+      pm_radiator:0 "the Franz San Gali matress radiator"
+			pm_radiator01:0 "The Bundy Loop radiator"
+		  pm_radiator02:0 "Electric radiators"
+
+      pm_casting_disabled:0 "Stopped casting of Furnaces"
+      pm_furnace:0 "David Rittenhouse stove"
+    	pm_furnace01:0 "Rumford Stove"
+
+      pm_woodfired:0 "Wood based burning"
+    	pm_briquettefired:0 "Briquette based burning"
+    	pm_coalfired:0 "Coal based burning"
+
+      pm_peatbriquette:0 "Peat briquettes"
+    	pm_woodbriquette:0 "Sawdust briquettes"
+  	  pm_woodcharcoal:0 "Charcoal briquettes"

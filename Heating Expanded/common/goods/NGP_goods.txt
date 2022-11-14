@@ -1,0 +1,78 @@
+sawdust = {
+	texture = "gfx/interface/icons/goods_icons/sawdust.dds"
+	cost = 8
+	category = industrial
+
+	prestige_factor = 3
+
+	traded_quantity = 60
+	convoy_cost_multiplier = 0.1
+
+	consumption_tax_cost = 150
+}
+peat = {
+	texture = "gfx/interface/icons/goods_icons/peat.dds"
+	cost = 19
+	category = staple
+
+	prestige_factor = 3
+
+	traded_quantity = 20
+	convoy_cost_multiplier = 0.5
+
+	consumption_tax_cost = 150
+}
+briquettes = {
+	texture = "gfx/interface/icons/goods_icons/briquettes.dds"
+	cost = 18
+	category = staple
+
+	prestige_factor = 4
+
+	traded_quantity = 20
+	convoy_cost_multiplier = 0.25
+
+	consumption_tax_cost = 75
+}
+central_heating = {
+	texture = "gfx/interface/icons/goods_icons/central_heating.dds"
+	cost = 15
+	category = staple
+	tradeable = no
+
+	prestige factor = 10
+	consumption_tax_cost = 300
+
+}
+
+radiators = {
+	texture = "gfx/interface/icons/goods_icons/radiator.dds"
+	cost = 50
+	category = luxury
+
+	prestige_factor = 10
+
+	traded_quantity = 10
+	convoy_cost_multiplier = 2.0
+	consumption_tax_cost = 100
+}
+furnaces = {
+	texture = "gfx/interface/icons/goods_icons/furnaces.dds"
+	cost = 40
+	category = luxury
+
+	traded_quantity = 5
+	prestige_factor = 10
+	convoy_cost_multiplier = 1.0
+	consumption_tax_cost = 200
+}
+
+steam_boilers = {
+	texture = "gfx/interface/icons/goods_icons/steam_boiler.dds"
+	cost = 90
+	category = industrial
+
+	prestige_factor = 15
+	traded_quantity = 6
+	convoy_cost_multiplier = 2
+}

@@ -1,0 +1,155 @@
+popneed_heating = {
+	default = wood
+
+	entry = {
+		goods = wood
+
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = fabric
+
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = coal
+
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = oil
+
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = electricity
+
+		weight = 2
+		max_weight = 10.0 # Maxes out at 100% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = peat
+
+		weight = 1
+		max_weight = 2.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	entry = {
+		goods = briquettes
+
+		weight = 2
+		max_weight = 4.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+}
+popneed_household_items = {
+	default = furniture
+
+	entry = {
+		goods = furniture
+
+		weight = 1
+		max_weight = 4.0 # Maxes out at 80% of supply share
+		min_weight = 0.25
+	}
+
+	entry = {
+		goods = glass
+
+		weight = 1
+		max_weight = 4.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = paper
+
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+
+popneed_luxury_items = {
+	default = luxury_clothes
+
+	entry = {
+		goods = luxury_clothes
+
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.25
+	}
+
+	entry = {
+		goods = luxury_furniture
+
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.25
+	}
+
+	entry = {
+		goods = porcelain
+
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.25
+	}
+
+	entry = {
+		goods = radios
+
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = furnaces
+
+		weight = 0.1
+		max_weight = 0.5 # Maxes out at 80% of supply share
+		min_weight = 0.1
+	}
+}
+popneed_survival_items = {
+	entry = {
+		goods = furnaces
+
+		weight = 0.2
+		max_weight = 0.5
+		min_weight = 0.2
+	}
+}
+popneed_better_heating = {
+	entry = {
+		goods = central_heating
+
+		weight = 0.1
+		max_weight = 6.0 # Maxes out at 40% of supply share
+		min_weight = 0
+	}
+	entry = {
+		goods = radiators
+
+		weight = 0.1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.1
+	}
+}

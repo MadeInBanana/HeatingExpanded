@@ -1,0 +1,954 @@
+building_briquette_press = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/briquette_press.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_peat_press
+		pmg_wood_press
+		pmg_automation_building_steel_mills
+		pmg_ownership_capital_building_steel_mills
+	}
+
+	required_construction = construction_cost_very_low
+
+}
+building_central_heating = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/central_heating.dds"
+	levels_per_mesh = 20
+
+	unlocking_technologies = {
+		steelworking
+	}
+
+	production_method_groups = {
+		pmg_material_burning
+		pmg_ownership_capital_building_power_plant
+	}
+
+	required_construction = construction_cost_medium
+}
+
+building_bog_smeltery = {
+	building_group = bg_bog_smelting
+	texture = "gfx/interface/icons/building_icons/bog_smeltery.dds"
+	city_type = mine
+	levels_per_mesh = 0
+
+	terrain_manipulator = mining
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_bog_smeltery
+		pmg_explosives_building_bog_smeltery
+		pmg_steam_automation_building_bog_smeltery
+		pmg_train_automation_building_bog_smeltery
+		pmg_ownership_capital_building_bog_smeltery
+	}
+ }
+
+building_steel_mills = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/steel_mills.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		steelworking
+	}
+
+	production_method_groups = {
+		pmg_steelmaking_process
+		pmg_furnace
+            pmg_radiator
+            pmg_boiler
+		pmg_automation_building_steel_mills
+		pmg_ownership_capital_building_steel_mills
+
+	}
+
+	required_construction = construction_cost_high
+}
+
+# MANUFACTURING INDUSTRIES
+
+building_food_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/food_industry.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_food_industry
+		pmg_canning
+		pmg_distillery
+		pmg_automation_building_food_industry
+		pmg_ownership_capital_building_food_industry
+	}
+
+	required_construction = construction_cost_high
+
+}
+
+building_textile_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_textile_mills
+		pmg_luxury_building_textile_mills
+		pmg_automation_building_textile_mills
+		pmg_ownership_capital_building_textile_mills
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_furniture_manufacturies = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_furniture_manufacturies
+		pmg_luxury_building_furniture_manufacturies
+		pmg_automation_building_furniture_manufacturies
+		pmg_ownership_capital_building_furniture_manufacturies
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_glassworks = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/glassworks.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_glassworks
+		pmg_luxury_building_glassworks
+		pmg_glassblowing
+		pmg_ownership_capital_building_glassworks
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_tooling_workshops = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	city_type = city
+	levels_per_mesh = 50
+
+	production_method_groups = {
+		pmg_base_building_tooling_workshops
+		pmg_automation_building_tooling_workshops
+		pmg_ownership_capital_building_tooling_workshops
+	}
+
+	required_construction = construction_cost_high
+
+	ai_value = 2000 # Tools are very important
+}
+
+building_paper_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/paper_mills.dds"
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	city_type = city
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_base_building_paper_mills
+		pmg_automation_building_paper_mills
+		pmg_ownership_capital_building_paper_mills
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_chemical_plants = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/chemicals_industry.dds"
+
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+
+	city_type = city
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_fertilizer_production
+		pmg_explosives_building_chemical_plants
+		pmg_ownership_capital_building_chemical_plants
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_synthetics_plants = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/synthetics_plants.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		aniline
+	}
+
+	production_method_groups = {
+		pmg_synthetic_dyes
+		pmg_synthetic_silk
+		pmg_ownership_capital_building_synthetics_plants
+	}
+
+	required_construction = construction_cost_high
+}
+
+
+building_motor_industry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/motor_industry.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		atmospheric_engine
+	}
+
+	production_method_groups = {
+		pmg_base_building_motor_industry
+		pmg_automobile_production
+		pmg_automation_building_motor_industry
+		pmg_ownership_capital_building_motor_industry
+	}
+
+	required_construction = construction_cost_high
+}
+
+building_shipyards = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/shipyards.dds"
+	city_type = port
+
+	unlocking_technologies = {
+		navigation
+	}
+
+	production_method_groups = {
+		pmg_base_building_shipyards
+		pmg_military_base
+		pmg_ownership_capital_building_shipyards
+	}
+
+	required_construction = construction_cost_high
+
+	can_build = {
+		error_check = {
+			severity = fail
+			is_coastal = yes
+		}
+	}
+}
+
+building_war_machine_industry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/vehicles_industry.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		military_aviation
+	}
+
+	production_method_groups = {
+		pmg_aeroplanes
+		pmg_tanks
+		pmg_ownership_capital_building_war_machine_industry
+	}
+
+	required_construction = construction_cost_very_high
+}
+
+building_electrics_industry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/electrics_industry.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		telephone
+	}
+
+	production_method_groups = {
+		pmg_telephones_category
+		pmg_radios_category
+		pmg_ownership_capital_building_electrics_industry
+	}
+
+	required_construction = construction_cost_very_high
+}
+
+building_arms_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/arms_industry.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		gunsmithing
+	}
+
+	production_method_groups = {
+		pmg_firearms_manufacturing
+		pmg_foundries
+		pmg_ownership_capital_building_arms_industry
+	}
+
+	required_construction = construction_cost_very_high
+}
+
+building_munition_plants = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/munition_plants.dds"
+	city_type = city
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		percussion_cap
+	}
+
+	production_method_groups = {
+		pmg_base_building_munition_plants
+		pmg_ownership_capital_building_munition_plants
+	}
+
+	required_construction = construction_cost_very_high
+}
+############# FARMING & RANCHING
+
+building_rye_farm = {
+	building_group = bg_rye_farms
+
+	texture = "gfx/interface/icons/building_icons/rye_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_rye_farm
+		pmg_secondary_building_rye_farm
+		pmg_harvesting_process_building_rye_farm
+		pmg_ownership_land_building_rye_farm
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = farmland_rye
+}
+
+building_wheat_farm = {
+	building_group = bg_wheat_farms
+
+	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_wheat_farm
+		pmg_secondary_building_wheat_farm
+		pmg_harvesting_process_building_wheat_farm
+		pmg_ownership_land_building_wheat_farm
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = farmland_wheat
+}
+
+building_rice_farm = {
+	building_group = bg_rice_farms
+
+	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_rice_farm
+		pmg_secondary_building_rice_farm
+		pmg_harvesting_process_building_rice_farm
+		pmg_ownership_land_building_rice_farm
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = farmland_rice
+}
+
+building_maize_farm = {
+	building_group = bg_maize_farms
+
+	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_maize_farm
+		pmg_secondary_building_maize_farm
+		pmg_harvesting_process_building_maize_farm
+		pmg_ownership_land_building_maize_farm
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = farmland_maize
+}
+
+building_millet_farm = {
+	building_group = bg_millet_farms
+
+	texture = "gfx/interface/icons/building_icons/millet_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_millet_farm
+		pmg_secondary_building_millet_farm
+		pmg_harvesting_process_building_millet_farm
+		pmg_ownership_land_building_millet_farm
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = farmland_millet
+}
+
+building_livestock_ranch = {
+	building_group = bg_livestock_ranches
+
+	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_livestock_ranch
+		pmg_slaughtering
+		pmg_fencing
+		pmg_refrigeration_building_livestock_ranch
+		pmg_ownership_land_building_livestock_ranch
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+}
+building_coal_mine = {
+	building_group = bg_coal_mining
+	texture = "gfx/interface/icons/building_icons/coal_mine.dds"
+	city_type = mine
+	levels_per_mesh = 0
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_coal_mine
+		pmg_explosives_building_coal_mine
+		pmg_steam_automation_building_coal_mine
+		pmg_train_automation_building_coal_mine
+		pmg_ownership_capital_building_coal_mine
+	}
+}
+
+building_iron_mine = {
+	building_group = bg_iron_mining
+	texture = "gfx/interface/icons/building_icons/iron_mine.dds"
+	city_type = mine
+	levels_per_mesh = 0
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_iron_mine
+		pmg_explosives_building_iron_mine
+		pmg_steam_automation_building_iron_mine
+		pmg_train_automation_building_iron_mine
+		pmg_ownership_capital_building_iron_mine
+	}
+ }
+
+building_lead_mine = {
+	building_group = bg_lead_mining
+	texture = "gfx/interface/icons/building_icons/lead_mine.dds"
+	city_type = mine
+	levels_per_mesh = 0
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_lead_mine
+		pmg_explosives_building_lead_mine
+		pmg_steam_automation_building_lead_mine
+		pmg_train_automation_building_lead_mine
+		pmg_ownership_capital_building_lead_mine
+	}
+ }
+
+building_sulfur_mine = {
+	building_group = bg_sulfur_mining
+	texture = "gfx/interface/icons/building_icons/sulfur_mine.dds"
+	city_type = mine
+	levels_per_mesh = 0
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_sulfur_mine
+		pmg_explosives_building_sulfur_mine
+		pmg_steam_automation_building_sulfur_mine
+		pmg_train_automation_building_sulfur_mine
+		pmg_ownership_capital_building_sulfur_mine
+	}
+ }
+
+building_gold_mine = {
+	building_group = bg_gold_mining
+	texture = "gfx/interface/icons/building_icons/gold_mine.dds"
+	city_type = mine
+	levels_per_mesh = 0
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_gold_mine
+		pmg_explosives_building_gold_mine
+		pmg_steam_automation_building_gold_mine
+		pmg_train_automation_building_gold_mine
+		pmg_ownership_capital_building_gold_mine
+	}
+}
+
+building_gold_fields = {
+	building_group = bg_gold_fields
+	texture = "gfx/interface/icons/building_icons/gold_fields.dds"
+	city_type = mine
+	levels_per_mesh = 0
+	buildable = no
+	expandable = no
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_base_building_gold_fields
+	}
+}
+############# PLANTATIONS
+
+building_coffee_plantation = {
+	building_group = bg_coffee_plantations
+	texture = "gfx/interface/icons/building_icons/coffee_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_base_building_coffee_plantation
+		pmg_train_automation_building_coffee_plantation
+		pmg_ownership_land_building_coffee_plantation
+	}
+}
+
+building_cotton_plantation = {
+	building_group = bg_cotton_plantations
+	texture = "gfx/interface/icons/building_icons/cotton_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_base_building_cotton_plantation
+		pmg_train_automation_building_cotton_plantation
+		pmg_ownership_land_building_cotton_plantation
+	}
+}
+
+building_dye_plantation = {
+	building_group = bg_dye_plantations
+	texture = "gfx/interface/icons/building_icons/dye_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_base_building_dye_plantation
+		pmg_train_automation_building_dye_plantation
+		pmg_ownership_land_building_dye_plantation
+	}
+}
+
+building_opium_plantation = {
+	building_group = bg_opium_plantations
+	texture = "gfx/interface/icons/building_icons/opium_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_base_building_opium_plantation
+		pmg_train_automation_building_opium_plantation
+		pmg_ownership_land_building_opium_plantation
+	}
+
+	can_build = {
+		error_check = {
+			severity = fail
+			owner = { NOT = { is_banning_goods = g:opium } }
+		}
+	}
+}
+
+building_tea_plantation = {
+	building_group = bg_tea_plantations
+	texture = "gfx/interface/icons/building_icons/tea_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_base_building_tea_plantation
+		pmg_train_automation_building_tea_plantation
+		pmg_ownership_land_building_tea_plantation
+	}
+}
+
+building_tobacco_plantation = {
+	building_group = bg_tobacco_plantations
+	texture = "gfx/interface/icons/building_icons/tobacco_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_base_building_tobacco_plantation
+		pmg_train_automation_building_tobacco_plantation
+		pmg_ownership_land_building_tobacco_plantation
+	}
+}
+
+building_sugar_plantation = {
+	building_group = bg_sugar_plantations
+	texture = "gfx/interface/icons/building_icons/sugar_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_base_building_sugar_plantation
+		pmg_train_automation_building_sugar_plantation
+		pmg_ownership_land_building_sugar_plantation
+	}
+}
+
+building_banana_plantation = {
+	building_group = bg_banana_plantations
+	texture = "gfx/interface/icons/building_icons/banana_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_base_building_banana_plantation
+		pmg_train_automation_building_banana_plantation
+		pmg_ownership_land_building_banana_plantation
+	}
+}
+
+building_silk_plantation = {
+	building_group = bg_silk_plantations
+	texture = "gfx/interface/icons/building_icons/silk_plantation.dds"
+	required_construction = construction_cost_low
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	city_type = farm
+	levels_per_mesh = 0
+
+	production_method_groups = {
+		pmg_base_building_silk_plantation
+		pmg_train_automation_building_silk_plantation
+		pmg_ownership_land_building_silk_plantation
+	}
+}
+############ BARRACKS
+
+building_barracks = {
+	building_group = bg_army
+	recruits_combat_unit = combat_unit_regular
+	texture = "gfx/interface/icons/building_icons/building_barracks.dds"
+	city_type = city
+
+	has_max_level = yes
+
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		standing_army
+	}
+
+	production_method_groups = {
+		pmg_organization
+		pmg_artillery
+		pmg_reconaissance
+		pmg_specialist_companies
+		pmg_medical_aid
+	}
+
+	required_construction = construction_cost_very_low
+}
+
+building_conscription_center = {
+	building_group = bg_conscription
+	buildable = no
+	expandable = no
+	downsizeable = no
+
+	has_max_level = yes
+
+	levels_per_mesh = 0
+	residence_points_per_level = 0
+	city_type = none
+
+	recruits_combat_unit = combat_unit_conscript
+	texture = "gfx/interface/icons/building_icons/building_conscription_center.dds"
+
+	production_method_groups = {
+		pmg_organization_conscription
+		pmg_artillery_conscription
+		pmg_reconaissance_conscription
+		pmg_specialist_companies_conscription
+		pmg_medical_aid
+	}
+}
+
+building_naval_base = {
+	building_group = bg_navy
+	recruits_combat_unit = combat_unit_flotilla
+	city_type = port
+	levels_per_mesh = 0
+
+	has_max_level = yes
+
+	texture = "gfx/interface/icons/building_icons/naval_base.dds"
+	naval = yes
+	unlocking_technologies = { admiralty }
+
+	production_method_groups = {
+		pmg_ship_class
+		pmg_escorts
+		pmg_raiders
+		pmg_naval_theory
+	}
+
+	required_construction = construction_cost_very_low
+
+	# Can only build naval bases on the coast
+	can_build = {
+		error_check = {
+			severity = fail
+			is_coastal = yes
+		}
+	}
+}
+# URBANIZATION
+
+building_urban_center = {
+	building_group = bg_service
+	texture = "gfx/interface/icons/building_icons/urban_center.dds"
+	city_type = city
+	residence_points_per_level = 0
+
+	unlocking_technologies = {
+		urbanization
+	}
+
+	production_method_groups = {
+		pmg_amenities
+		pmg_street_lighting
+		pmg_public_transport
+		pmg_urban_clergy
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+
+	terrain_manipulator = urban_city
+}
+
+building_arts_academy = {
+	building_group = bg_arts
+
+	city_type = city
+
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		romanticism
+	}
+
+	production_method_groups = {
+		pmg_base_building_arts_academy
+		pmg_ownership_building_arts_academy
+	}
+
+	texture = "gfx/interface/icons/building_icons/building_arts_academy.dds"
+
+	required_construction = construction_cost_high
+}
+
+building_power_plant = {
+	building_group = bg_power
+	texture = "gfx/interface/icons/building_icons/power_plant.dds"
+	levels_per_mesh = 0
+
+	unlocking_technologies = {
+		electrical_generation
+	}
+
+	production_method_groups = {
+		pmg_base_building_power_plant
+		pmg_ownership_capital_building_power_plant
+	}
+
+	required_construction = construction_cost_very_high
+}

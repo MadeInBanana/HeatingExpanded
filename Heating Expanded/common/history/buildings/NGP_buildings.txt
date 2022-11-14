@@ -1,0 +1,384 @@
+BUILDINGS={
+		s:STATE_HOME_COUNTIES={
+			region_state:GBR={
+				create_building={
+							building="building_central_heating"
+							level=3
+							reserves=1
+							activate_production_methods={ "pm_briquettefired" }
+							}
+			}
+}
+		s:STATE_GELRE={
+			region_state:NET={
+				create_building={
+							building="building_bog_smeltery"
+							level=6
+							reserves=1
+							activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+							}
+			}
+}
+		s:STATE_NEW_JERSEY={
+			region_state:USA={
+				create_building={
+							building="building_tooling_workshops"
+							level=4
+							reserves=1
+							activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+							}
+			}
+}
+		s:STATE_MASSACHUSETTS={
+		region_state:USA={
+			create_building={
+						building="building_tooling_workshops"
+						level=1
+						reserves=1
+						activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+						 }
+			}
+}
+		s:STATE_NEW_YORK={
+		region_state:USA={
+		create_building={
+			building="building_steel_mills"
+			level=2
+			reserves=1
+			activate_production_methods={ }
+			}
+		}
+	}
+		s:STATE_MARYLAND={
+		region_state:USA={
+			create_building={
+				building="building_bog_smeltery"
+				level=13
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_steel_mills"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_peatfired_smelting" "pm_furnace" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+					level=2
+					reserves=1
+					activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+					}
+				}
+			}
+		s:STATE_TOMSK={
+		region_state:RUS={
+			create_building={
+				building="building_bog_smeltery"
+				level=3
+				reserves=0
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+	}
+		s:STATE_MAZOVIA={
+		region_state:RUS={
+			create_building={
+				building="building_bog_smeltery"
+				level=11
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+	}
+		s:STATE_EAST_PRUSSIA={
+		region_state:PRU={
+			create_building={
+				building="building_bog_smeltery"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_steel_mills"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_briquettefired_smelting" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_tooling_workshops"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
+			}
+			create_building={
+				building="building_rye_farm"
+					level=12
+					reserves=1
+					activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_university"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_scholastic_education" }
+			}
+		}
+	}
+		s:STATE_LITHUANIA={
+		region_state:RUS={
+			create_building={
+				building="building_bog_smeltery"
+				level=15
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_steel_mills"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_briquettefired_smelting" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+			building="building_logging_camp"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+		}
+	}
+		s:STATE_LATVIA={
+		region_state:RUS={
+			create_building={
+				building="building_bog_smeltery"
+				level=13
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+							}
+			create_building={
+				building="building_logging_camp"
+					level=3
+						reserves=1
+							activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+								}
+		create_building={
+			building="building_paper_mills"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+								}
+		create_building={
+			building="building_textile_mills"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
+					}
+			create_building={
+				building="building_steel_mills"
+					level=1
+						reserves=1
+						activate_production_methods={ "pm_briquettefired_smelting" "pm_furnace" "pm_radiator" "pm_boiler" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+		}
+	}
+		s:STATE_ESTONIA={
+		region_state:RUS={
+			create_building={
+				building="building_bog_smeltery"
+					level=8
+					reserves=1
+					activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+					}
+			create_building={
+				building="building_logging_camp"
+					level=2
+					reserves=1
+					activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+					}
+			create_building={
+				building="building_university"
+					level=3
+					reserves=1
+					activate_production_methods={ "pm_scholastic_education" }
+					}
+			create_building={
+				building="building_paper_mills"
+					level=2
+					reserves=1
+					activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+					}
+			create_building={
+				building="building_textile_mills"
+					level=2
+					reserves=1
+					activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
+				}
+			}
+		}
+		s:STATE_MOSCOW={
+		region_state:RUS={
+			create_building={
+				building="building_bog_smeltery"
+				level=14
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+	}
+		s:STATE_KARELIA={
+		region_state:RUS={
+			create_building={
+				building="building_bog_smeltery"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+	}
+		s:STATE_INGRIA={
+		region_state:RUS={
+			create_building={
+				building="building_briquette_press"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_peatpress" "pm_woodpress" }
+			}
+			create_building={
+				building="building_steel_mills"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_peatfired_smelting" "pm_furnace" "pm_radiator" "pm_boiler" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_central_heating"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_briquettefired" }
+			}
+			create_building={
+			building="building_university"
+			level=4
+			reserves=1
+			activate_production_methods={  }
+      }
+		}
+	}
+		s:STATE_EAST_ANGLIA={
+		region_state:GBR={
+			create_building={
+				building="building_bog_smeltery"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+	}
+		s:STATE_MIDLANDS={
+		region_state:GBR={
+			create_building={
+				building="building_steel_mills"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_briquettefired_smelting" "pm_furnace" "pm_radiator" "pm_casting02_disabled" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_central_heating"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_briquettefired" }
+				}
+   	}
+ }
+		s:STATE_ULSTER={
+		region_state:GBR={
+						create_building={
+				building="building_bog_smeltery"
+				level=8
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+	}
+		s:STATE_MUNSTER={
+		region_state:GBR={
+			create_building={
+				building="building_bog_smeltery"
+				level=7
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+		}
+	}
+		s:STATE_LEINSTER={
+		region_state:GBR={
+			create_building={
+				building="building_bog_smeltery"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_briquette_press"
+				level=3
+				reserves=1
+				activate_production_methods={ "" }
+			}
+		}
+	}
+	s:STATE_SVEALAND={
+		region_state:SWE={
+			create_building={
+				building="building_bog_smeltery"
+				level=7
+				reserves=1
+				activate_production_methods={  }
+			}
+		}
+	}
+	s:STATE_GOTALAND={
+		region_state:SWE={
+			create_building={
+				building="building_bog_smeltery"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			 }
+		}
+	}
+	s:STATE_SCANIA={
+		region_state:SWE={
+			create_building={
+				building="building_bog_smeltery"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+				}
+		}
+	}
+	s:STATE_JUTLAND={
+		region_state:DEN={
+			create_building={
+			building="building_bog_smeltery"
+			level=3
+			reserves=1
+			activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+				}
+		}
+	}
+	s:STATE_CONNAUGHT={
+		region_state:GBR={
+			create_building={
+				building="building_bog_smeltery"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_picks_and_shovels_building_bog_smeltery" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" }
+			}
+			create_building={
+				building="building_briquette_press"
+				level=2
+				reserves=1
+				activate_production_methods={  }
+			}
+		}
+	}
+}
